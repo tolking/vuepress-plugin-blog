@@ -77,4 +77,5 @@ export interface FrontmatterClassifier {
 export interface BlogPluginOptions {
   directories: DirectoryClassifier[];
   frontmatters: FrontmatterClassifier[];
+  globalPagination: PaginationConfig
 }
