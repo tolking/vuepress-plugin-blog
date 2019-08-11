@@ -97,8 +97,9 @@ For more details about permalinks, please head to [Permalinks](https://v1.vuepre
 ### pagination
 
 - Type: `Pagination`
-- Default: `{ lengthPerPage: 10 }`
 - Required: `false`
+
+It can overwrite [globalPagination](./#globalpagination).
 
 Please head to [Pagination Config](../pagination/README.md#config) section to get all available options.
 
@@ -166,7 +167,17 @@ Layout component name for entry page.
 ### pagination
 
 - Type: `Pagination`
-- Default: `{ lengthPerPage: 10 }`
+- Required: `false`
+
+It can overwrite [globalPagination](./#globalpagination).
+
+Please head to [Pagination Config](../pagination/README.md#config) section to get all available options.
+
+## globalPagination
+
+Pagination config for all directories and frontmatters. 
+
+- Type: `Pagination`
 - Required: `false`
 
 Please head to [Pagination Config](../pagination/README.md#config) section to get all available options.
